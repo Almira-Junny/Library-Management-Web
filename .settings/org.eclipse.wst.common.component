@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Quan ly thu vien">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="Quan_ly_thu_vien"/>
+        <property name="java-output-path" value="/Quan ly thu vien/build/classes"/>
+    </wb-module>
+</project-modules>
