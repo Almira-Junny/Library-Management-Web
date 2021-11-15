@@ -23,7 +23,6 @@
 								&nbsp;- Muốn sử dụng trang web này thì đầu tiên bạn cần <b>
 									<a href="${pageContext.request.contextPath}/Login">đăng
 										nhập.</a>
-								</b>. Tên tài khoản: <b>nobita</b>, Mật khẩu: <b>doraemon</b>.
 							</p>
 							<%
 								} else {

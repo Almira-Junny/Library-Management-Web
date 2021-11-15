@@ -9,9 +9,9 @@ public class ConnectDatabase {
 	
 	public static Connection getMySQLConnection() throws ClassNotFoundException, SQLException
 	{
-		String dbURL = "jdbc:mysql://localhost:3307/manage_library";
+		String dbURL = "jdbc:mysql://127.0.0.1:3306/manage_library";
 		String username = "root";
-		String password = "04112001";
+		String password = "hoa";
 		Class.forName("com.mysql.jdbc.Driver");
 		Connection conn = (Connection) DriverManager.getConnection(dbURL, username, password);
 		if (conn != null) {
